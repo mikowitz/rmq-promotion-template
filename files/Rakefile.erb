@@ -8,8 +8,8 @@ require 'ruby_motion_query'
 
 Motion::Project::App.setup do |app|
 
-  app.name = 'rmq-promotion-template'
-  app.identifier = 'com.your_domain_here.rmq-promotion-template'
+  app.name = '<%= name %>'
+  app.identifier = 'com.your_domain_here.<%= name.downcase.strip.gsub(/\s/, '_') %>'
   app.short_version = '0.1.0'
   app.version = app.short_version
 
