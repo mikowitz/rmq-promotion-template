@@ -12,14 +12,24 @@ template app, with the following changes:
 in keeping with ProMotion convention
 * creating the nav bar uses ProMotion helper methods
 
-Use
+Installation and Use
 --------
 
-If you have Rubymotion >= 2.3, you can use this template directly from GitHub:
+### First use with RubyMotion >= 2.3
+
+If you have RubyMotion >= 2.3, you can use this template directly from GitHub:
 
 `~$ motion create --template=git@github.com:mikowitz/rmq-promotion-template.git <your-app-name>`
 
-This will install the template to your `~/Library/Rubymotion/template`. If you have already installed it, running the above command will run a `git pull`.
+This will install the template to your `~/Library/RubyMotion/template`. If you have already installed it, running the above command will run a `git pull`.
+
+### First use with RubyMotion < 2.3
+
+If you have an earlier version of RubyMotion, you can install the template by running:
+
+`~$ git clone git@github.com:mikowitz/rmq-promotion-template.git ~/Library/RubyMotion/template`
+
+### Subsequent apps
 
 Once the template is installed, subsequent projects using the template can be created simply using
 
