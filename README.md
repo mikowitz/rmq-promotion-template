@@ -1,9 +1,11 @@
+# Note: redpotion does this more completely, so I would strongly recommend using that gem instead: [redpotion](https://www.github.com/infinitered/redpotion)
+
 rmq-promotion-template
 ===================
 
-A basic [http://www.rubymotion.com/](RubyMotion) iOS application template using
-[http://infinitered.com/rmq/](RubyMotionQuery) and
-[https://github.com/clearsightstudio/ProMotion](ProMotion).
+A basic [RubyMotion](http://www.rubymotion.com/) iOS application template using
+[RubyMotionQuery](http://infinitered.com/rmq/) and
+[ProMotion](https://github.com/clearsightstudio/ProMotion).
 
 This template is based on the default RMQ template. In fact, it is the same
 template app, with the following changes:
